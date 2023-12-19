@@ -2,25 +2,25 @@
 
 /**
  * bubble_sort - sort list with bubble
- * @array: To be printed array
- * @size: size of elemen
+ * @array: The array to be printed
+ * @size: Number of elements in @array
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i = 0, t = size;
+	size_t n = 0, t = size;
 	int holder;
 
 	if (array == NULL)
 		return;
 	for (t = size; t > 0; t--)
 	{
-		for (i = 0; i < size - 1; i++)
+		for (n = 0; n < size - 1; n++)
 		{
-			if (array[i] > array[i + 1])
+			if (array[n] > array[n + 1])
 			{
-				holder = array[i];
-				array[i] = array[i + 1];
-				array[i + 1] = holder;
+				holder = array[n];
+				array[n] = array[n + 1];
+				array[n + 1] = holder;
 				print_array(array, size);
 			}
 		}
