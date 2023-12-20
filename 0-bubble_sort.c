@@ -4,7 +4,6 @@
  * bubble_sort - Sorts an array using the bubble sort algorithm.
  * @array: The array to be sorted.
  * @size: The length of the array.
- * Return: Void.
  */
 void bubble_sort(int *array, size_t size)
 {
