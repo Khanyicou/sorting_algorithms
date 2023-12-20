@@ -4,7 +4,6 @@
  * selection_sort -  sort list with selection_sort
  * @array: An array
  * @size:size of array
- * Return: N/A
  */
 void selection_sort(int *array, size_t size)
 {
