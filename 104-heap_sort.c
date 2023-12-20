@@ -6,7 +6,7 @@
  * @root: The root index of the heap.
  * @hi: The higher index.
  * @size: The size of the array.
- * Return: Void.
+ *
  */
 void swap_root(int *array, size_t root, size_t hi, size_t size)
 {
@@ -35,7 +35,7 @@ void swap_root(int *array, size_t root, size_t hi, size_t size)
  * heap_sort - Sorts an array using the heap sort algorithm.
  * @array: The array to be sorted.
  * @size: The size of the array.
- * Return: Void.
+ *
  */
 void heap_sort(int *array, size_t size)
 {
