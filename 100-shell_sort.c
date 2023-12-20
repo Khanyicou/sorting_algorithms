@@ -35,11 +35,12 @@ void shell_sort(int *array, size_t size)
 
 			/* Insert the element in the correct position */
 			if (array[j] != aux)
-array[j] = aux;
+				array[j] = aux;
+		}
+
+		/* Print the current state of the array */
+		print_array(array, size);
+	}
 }
 
-/* Print the current state of the array */
-print_array(array, size);
-}
-}
 
