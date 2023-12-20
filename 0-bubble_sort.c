@@ -2,8 +2,9 @@
 
 /**
  * bubble_sort - sort list with bubble
- * @array: The array
- * @size: Number of elem
+ * @array: The array to be printed
+ * @size:  Number of elements in @array
+ *  Return: Nothing.
  */
 void bubble_sort(int *array, size_t size)
 {
